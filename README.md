@@ -19,7 +19,7 @@ How to Play:
 
 Demo:
 
-  Play the game here 
+  Play the game here( https://heyguessthenumber.netlify.app/ )
 
 Contributing:
 
