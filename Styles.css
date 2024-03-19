@@ -1,0 +1,97 @@
+html {
+    font-family: 'Arial', sans-serif; /* Updated font family */
+}
+
+body {
+    width: 100%; /* Updated width to make it responsive */
+    max-width: 750px;
+    margin: 0 auto;
+    background-color: #212121;
+    padding: 20px; /* Added padding for better spacing */
+}
+
+.lastResult, .guesses {
+    color: white;
+    padding: 10px; /* Increased padding for better spacing */
+    margin-bottom: 10px; /* Added margin-bottom for better separation */
+    border: 2px solid #444; /* Added border for distinction */
+    border-radius: 8px; /* Added border-radius for rounded corners */
+}
+
+button, #subt {
+    background-color: #ff6f00; /* Changed button background color */
+    color: #fff;
+    width: 100%; /* Make buttons full-width */
+    height: 50px;
+    border-radius: 25px;
+    font-size: 20px; /* Reduced font size for better fit */
+    border: none;
+    margin-top: 20px; /* Adjusted margin-top for better spacing */
+    cursor: pointer; /* Added cursor pointer for usability */
+}
+
+#guessField {
+    color: #000;
+    width: calc(100% - 20px); /* Adjusted width with padding for better fit */
+    height: 50px;
+    font-size: 20px; /* Reduced font size for better fit */
+    border: 2px solid #6c6d6d;
+    border-radius: 8px; /* Added border-radius for rounded corners */
+    text-align: center;
+    margin: 10px auto; /* Centered input field */
+    display: block; /* Ensures input field takes full width */
+}
+
+#guess {
+    font-size: 40px; /* Reduced font size for better fit */
+    margin-top: 20px;
+    color: #fff;
+}
+
+.guesses {
+    background-color: #7a7a7a;
+    padding: 20px; /* Increased padding for better spacing */
+}
+
+#wrapper {
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%; /* Updated width to make it responsive */
+    max-width: 500px; /* Adjusted max-width for better fit */
+    height: auto; /* Removed fixed height */
+    background-color: #474747;
+    color: #fff;
+    font-size: 20px; /* Reduced font size for better fit */
+    padding: 20px; /* Added padding for better spacing */
+    margin: 0 auto; /* Centered wrapper horizontally */
+}
+
+h1 {
+    background-color: #ff6f00; /* Changed header background color */
+    color: #fff;
+    text-align: center;
+    padding: 20px; /* Increased padding for better spacing */
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px; /* Added margin-bottom for better spacing */
+}
+
+/* CSS for copyright notice */
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    color: #888; /* Adjust color as needed */
+    font-size: 14px; /* Adjust font size as needed */
+}
+
+.copyright a {
+    color: #888; /* Adjust color as needed */
+    text-decoration: none; /* Remove underline */
+}
+
+.copyright a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
