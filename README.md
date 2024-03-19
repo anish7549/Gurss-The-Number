@@ -1,10 +1,10 @@
 #Number Guessing Game
 
-This is a simple web-based number guessing game where players have 10 chances to guess the correct number. The game is built using HTML, CSS, and JavaScript and can be played directly in any web browser.
+This is a simple web-based number guessing game where players have 5 chances to guess the correct number. The game is built using HTML, CSS, and JavaScript and can be played directly in any web browser.
 
 Features:
 
-  Players have 10 chances to guess the correct number.
+  Players have 5 chances to guess the correct number.
   Feedback is provided after each guess to help players narrow down their choices.
   Responsive design ensures that the game is playable on both desktop and mobile devices.
   Simple and intuitive user interface makes the game easy to understand and play.
